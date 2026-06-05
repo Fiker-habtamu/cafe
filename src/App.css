@@ -1,0 +1,14 @@
+:root{
+  --primary:rgb(55, 58, 65);
+  --secondary:rgb(93, 115, 126);
+  --accent:rgb(122, 122, 207);
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Guaranteed fix for horizontal scroll bars */
+}
