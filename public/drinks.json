@@ -1,0 +1,85 @@
+{
+  "drinks": [
+    {
+      "drink_id": 1,
+      "drink_name": "Iced Spanish Latte",
+      "drink_url": "iced-spanish-latte",
+      "drink_brief_description": "Sweet, creamy, and chilled espresso with a condensed milk twist.",
+      "drink_price": 180.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "Our signature iced latte sweetened with rich condensed milk, mixed with freshly pulled espresso shots and chilled whole milk over ice cubes. Perfect for those who love a smooth, sweeter coffee kick."
+    },
+    {
+      "drink_id": 2,
+      "drink_name": "Iced Caramel Macchiato",
+      "drink_url": "iced-caramel-macchiato",
+      "drink_brief_description": "Layered espresso and cold milk drizzled with sweet caramel syrup.",
+      "drink_price": 195.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1579888071069-c107a6f79d82?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "Fresh espresso poured over cold milk and vanilla syrup, topped with a heavy drizzle of buttery caramel sauce. Served layered for a beautiful visual effect before you mix it."
+    },
+    {
+      "drink_id":3,
+      "drink_name": "Vanilla Iced Latte",
+      "drink_url": "vanilla-iced-latte",
+      "drink_brief_description": "Classic chilled espresso and milk infused with smooth vanilla flavor.",
+      "drink_price":170.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1527156231393-7023794f363c?q=80&w=411&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "A timeless classic. Dark, rich espresso balanced with cold milk and premium Madagascar vanilla syrup, served over ice for a crisp, refreshing, and fragrant morning pick-me-up."
+    },
+    {
+      "drink_id": 4,
+      "drink_name": "Iced Mocha Fudge",
+      "drink_url": "iced-mocha-fudge",
+      "drink_brief_description": "The ultimate cold fusion of bold espresso and rich chocolate sauce.",
+      "drink_price":210.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1530373239216-42518e6b4063?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "For the chocolate lovers. A decadent blend of premium dark chocolate fudge sauce, espresso, and cold milk, poured over crushed ice. It is a rich, dessert-like coffee experience."
+    },
+    {
+      "drink_id": 5,
+      "drink_name": "Iced Pistachio Latte",
+      "drink_url": "iced-pistachio-latte",
+      "drink_brief_description": "Chilled espresso featuring cozy, nutty hints of roasted pistachio.",
+      "drink_price": 240.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1770282184778-f474bd3a379a?q=80&w=399&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "An artisanal beverage combining a sweet, nutty roasted pistachio sauce with fresh espresso and cold milk. Gives a unique comforting aroma and pairs beautifully with coffee notes."
+    },
+    {
+      "drink_id": 6,
+      "drink_name": "Iced Americano",
+      "drink_url": "iced-americano",
+      "drink_brief_description": "Crisp and deeply refreshing espresso shots topped with chilled water.",
+      "drink_price": 130.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1581996323441-538096e854b9?q=80&w=436&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "Rich espresso shots pulled over ice and extended with chilled water. This process preserves the nuanced flavors of the coffee bean while offering a light, clean, and highly energizing drink."
+    },
+    {
+      "drink_id": 7,
+      "drink_name": "Hazelnut Frappé",
+      "drink_url": "hazelnut-frappe",
+      "drink_brief_description": "Blended ice coffee bursting with creamy roasted hazelnut notes.",
+      "drink_price": 220.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1662237595108-91ae7b98b9d3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "A frosty, blended treat. Espresso, milk, ice, and premium hazelnut syrup run through a high-powered blender until creamy. Finished with a light crown of whipped cream."
+    },
+    {
+      "drink_id": 8,
+      "drink_name": "Iced White Chocolate Matcha",
+      "drink_url": "iced-white-chocolate-matcha",
+      "drink_brief_description": "Earthy green tea matcha layered over a sweet white chocolate base.",
+      "drink_price":250.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1717603545758-88cc454db69b?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "A beautiful premium ceremonial green tea matcha whisked and poured over a layer of cold milk and melted sweet white chocolate sauce. Ideal for coffee drinkers looking to try something different."
+    },
+    {
+      "drink_id": 9,
+      "drink_name": "Iced Chai Tea Latte",
+      "drink_url": "iced-chai-tea-latte",
+      "drink_brief_description": "Black tea infused with warming aromatic spices, milk, and ice.",
+      "drink_price":185.00,
+      "drink_image_url": "https://images.unsplash.com/photo-1604959807242-9eb8fd0b5bfa?q=80&w=388&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "drink_description": "A lightly spiced, incredibly aromatic blend of black tea, cinnamon, cardamom, and ginger mixed smoothly with cold milk and poured over ice cubes. Balanced, exotic, and refreshing."
+    }
+  ]
+}
