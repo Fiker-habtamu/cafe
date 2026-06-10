@@ -1,15 +1,16 @@
-import './App.css'
-import FoodCard from './components/foodCard/FoodCard'
-import Header from './components/Header/Header'
+import "./App.css";
+import FoodCard from "./components/foodCard/FoodCard";
+import Header from "./components/Header/Header";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
-
   return (
     <>
-    <Header/>
-    <FoodCard/>
+      <NavBar />
+      <Header />
+      <FoodCard />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
