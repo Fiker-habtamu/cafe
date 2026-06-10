@@ -1,0 +1,74 @@
+.nav_bar {
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #010101;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+}
+.nav_bar .section_lists {
+  width: 400px;
+  font-size: 1.3rem;
+  color: var(--primary);
+  font-family: sans-serif;
+  margin-right: 40px;
+}
+.scroll {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.nav_bar .header_logo {
+  color: var(--secondary);
+}
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  width: 30px;
+  height: 50;
+  cursor: pointer;
+}
+.hamburger span {
+  width: 100%;
+  height: 5px;
+  background-color: var(--primary);
+  border-radius: 5px;
+
+}
+.mb_section_lists {
+  position: sticky;
+    top: 62px;
+  z-index: 5;
+  width: 100%;
+  overflow: hidden;        /* ✅ added */
+  max-height: 0;           /* ✅ replaces height: 200px */
+  opacity: 0;              /* ✅ added */
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+}
+.mb_section_lists.open {   /* ✅ new open state */
+  max-height: 300px;
+  opacity: 1;
+}
+.mb_section_lists a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid rgba(80, 78, 78, 0.5);
+  transition: all 0.4s ease;
+  font-size: 1.2rem;
+  color: var(--primary);
+
+}
