@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 :root{
-  --primary:rgb(55, 58, 65);
-  --secondary:rgb(93, 115, 126);
-  --accent:rgb(122, 122, 207);
+  --primary:#ffe8d6;
+  --secondary:#b7e4c7;
+  --bg_accent: #40916c;       
+  --accent: #8a5a44;
 }
 *{
   box-sizing: border-box;
@@ -12,5 +13,5 @@ body{
   background-color: var(--primary);
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Guaranteed fix for horizontal scroll bars */
+  overflow-x: hidden;
 }
