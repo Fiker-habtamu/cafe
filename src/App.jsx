@@ -8,7 +8,6 @@ function App() {
     <>
       <NavBar />
       <Header />
-      <FoodCard />
     </>
   );
 }
