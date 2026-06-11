@@ -29,7 +29,7 @@
 .hamburger {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 2px;
   justify-content: space-between;
   align-items: center;
   width: 30px;
@@ -41,26 +41,25 @@
   height: 5px;
   background-color: var(--primary);
   border-radius: 5px;
-
 }
 .mb_section_lists {
   position: sticky;
-    top: 62px;
+  top: 62px;
   z-index: 5;
   width: 100%;
-  overflow: hidden;        /* ✅ added */
-  max-height: 0;           /* ✅ replaces height: 200px */
-  opacity: 0;              /* ✅ added */
+  overflow: hidden; /* ✅ added */
+  max-height: 0; /* ✅ replaces height: 200px */
+  opacity: 0; /* ✅ added */
   background-color: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-
 }
-.mb_section_lists.open {   /* ✅ new open state */
+.mb_section_lists.open {
+  /* ✅ new open state */
   max-height: 300px;
   opacity: 1;
 }
-.mb_section_lists a{
+.mb_section_lists a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,5 +69,4 @@
   transition: all 0.4s ease;
   font-size: 1.2rem;
   color: var(--primary);
-
 }
