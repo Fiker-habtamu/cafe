@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--secondary);
+  background-color: #ddbea9;
 }
 .menu_content {
   width: 90%;

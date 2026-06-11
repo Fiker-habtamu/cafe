@@ -8,7 +8,7 @@ function MenuSection() {
       <div className="menu_container pt-7">
         <div className="menu_content">
           <div className="flex justify-center items-center">
-            <h2 className="text-3xl font-bold sm:text-4xl">HERE IS A MENU</h2>
+            <h2 className="text-3xl font-bold sm:text-4xl text-[#40916c]">HERE IS A MENU</h2>
           </div>
           <div className="flex flex-col gap-12 sm:flex-row sm:h-fit">
             {/* food  */}
@@ -50,7 +50,10 @@ function MenuSection() {
                   Refreshing, handcrafted drinks bursting with flavor in every
                   sip
                 </p>
+				<div>
                 <Link to="/foods" className="sm:text-[20px] sm:font-semibold text-center">Look Food</Link>
+
+				</div>
               </div>
             </div>
           </div>
