@@ -29,8 +29,7 @@
 .hamburger {
   display: flex;
   flex-direction: column;
-  gap: 2px;
-  justify-content: space-between;
+  gap: 5px;
   align-items: center;
   width: 30px;
   height: 50;
