@@ -2,8 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondary);
   background-color: #ddbea9;
+  padding-bottom: 50px;
+
 }
 .menu_content {
   width: 90%;

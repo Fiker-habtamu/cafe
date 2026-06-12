@@ -1,4 +1,5 @@
 import "./App.css";
+import About from "./components/About/About";
 import FoodCard from "./components/foodCard/FoodCard";
 import Header from "./components/Header/Header";
 import MenuSection from "./components/menuSection/MenuSection";
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Header />
       <MenuSection/>
+      <About/>
     </>
   );
 }
