@@ -52,7 +52,7 @@ export default function VisitUs() {
  
         <div className="map-iframe-wrapper">
           <iframe
-            title="Messanta Coffee Location"
+            title="Dina's cafe location"
             src={GOOGLE_MAPS_EMBED}
             allowFullScreen
             loading="lazy"
