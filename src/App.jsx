@@ -10,6 +10,7 @@ import SharedComponent from "./components/Shared/SharedComponent";
 import Four04 from "./components/Pages/Four04/Four04";
 import FoodCard from "./components/Pages/foodCard/FoodCard";
 import DrinksCard from "./components/Pages/DrinksCard/DrinksCard";
+import SingleDrink from "./components/Pages/SingleDrink/SingleDrink";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/foods" element={<FoodCard />} />
           <Route path="/drinks" element={<DrinksCard />} />
+          <Route path="/drinks/:id" element={<SingleDrink />} />
           <Route path="*" element={<Four04 />} />
         </Route>
       </Routes>

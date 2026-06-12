@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./DrinksCard.css";
+import { Link } from "react-router-dom";
 
 export default function DrinksCard() {
   const [drinks, setDrinks] = useState([]);
@@ -29,12 +30,12 @@ export default function DrinksCard() {
             <h2 className="text-2xl font-bold uppercase">{drink_name}</h2>
             <p className="text-[#4d4747] h-24">{drink_brief_description}</p>
             <p className="text-[20px] mb-5 font-semibold">ETB: {drink_price}Br</p>
-            <a
-              href={`/drinks/${drink_url}`}
+            <Link
+              to={`/drinks/${drink_url}`}
               className="w-fit h-fit p-2 font-semibold text-[20px] "
             >
               See Detail
-            </a>
+            </Link>
           </div>
         </div>
           )
