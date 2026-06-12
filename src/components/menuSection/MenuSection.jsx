@@ -57,7 +57,7 @@ function MenuSection() {
                   sip
                 </p>
                 <div className="w-full flex justify-center items-center">
-                  <Link to="/foods" className="md:text-[20px] md:font-semibold">
+                  <Link to="/drinks" className="md:text-[20px] md:font-semibold">
                       Look Drink
                   </Link>
                 </div>
