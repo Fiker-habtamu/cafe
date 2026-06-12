@@ -24,7 +24,7 @@
 .menu_img {
   width: 50%;
   padding: 5px;
-  height: fit-content;
+  height: 220px;
 }
 .menu_img img {
   box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
@@ -36,8 +36,8 @@
   font-family: sans-serif;
 }
 .menu_texts a {
-  width: 200px;
-  height: 30px;
+  width: fit-content;
+  height: fit-content;
   padding: 10px;
   border-radius: 10px;
   background-color: var(--bg_accent);
