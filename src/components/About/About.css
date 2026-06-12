@@ -16,11 +16,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 330px;
+  height: 370px;
   background-color: rgba(83, 81, 81, 0.2);
   margin-bottom: 50px;
   border: 1px solid rgb(73, 70, 70);
   border-radius: 32px;
+}
+.plan{
+	padding: 10px;
 }
 .plan h2 {
   color: white;
