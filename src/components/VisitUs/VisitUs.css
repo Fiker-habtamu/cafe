@@ -5,7 +5,7 @@
   --text-sub: #555555;
   --text-label: #1a1a1a;
   --text-detail: #444444;
-  --accent: #c8860a;
+  --visit_accent: #c8860a;
   --border: #e4e4e4;
   --divider: #e0e0e0;
 }
@@ -69,7 +69,7 @@
  
 .map-link {
   font-size: 0.82rem;
-  color: var(--accent);
+  color: var(--visit_accent);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@
  
 .map-link:hover {
   text-decoration: underline;
-  color: var(--accent);
+  color: var(--visit_accent);
 }
  
 .map-link svg {
@@ -151,6 +151,6 @@
 }
  
 .info-col a:hover {
-  color: var(--accent);
+  color: var(--visit_accent);
   text-decoration: underline;
 }
