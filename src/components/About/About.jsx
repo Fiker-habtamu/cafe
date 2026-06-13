@@ -2,10 +2,10 @@ import React from "react";
 import "./About.css";
 import { Link } from "react-router-dom";
 
-export default function About() {
+export default function About({aboutSection,toMenu}) {
   return (
     <>
-      <div className="About_container h-fit">
+      <div className="About_container h-fit" ref={aboutSection}>
         {/* About us text */}
         <div className="AboutUs_title mb-15">
           <h2 className="block text-5xl text-center mb-5">
@@ -81,7 +81,7 @@ export default function About() {
                   <p className="second_about_text">Always brewing</p>
                 </div>
               </div>
-              <Link to="" className="about_btn w-fit text-black p-4 rounded-2xl font-semibold">Explore Our Menu</Link>
+              <Link onClick={toMenu} className="about_btn w-fit text-black p-4 rounded-2xl font-semibold">Explore Our Menu</Link>
             </div>
           </div>
         </div>

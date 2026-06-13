@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const scrollHeight = 70;
 const resizeWidth = 700;
 
-function NavBar() {
+function NavBar({ goToHome, goToMenu, goToVisitUs, goToAbout }) {
   const [scroll, setScroll] = useState(false);
   const [shrink, setSize] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false); // ✅ replaces broken isClicked const
@@ -24,8 +24,8 @@ function NavBar() {
   useEffect(() => {
     if (window.innerWidth < 768) {
       setSize(true);
-    }else{
-      setSize(false)
+    } else {
+      setSize(false);
     }
     const handleResize = () => {
       if (window.innerWidth < 768) {
@@ -43,22 +43,41 @@ function NavBar() {
   return (
     <>
       <nav className={`nav_bar h-16 ${scroll ? "scroll" : ""} `}>
-        <Link to={"/"} className="header_logo text-3xl font-bold max-sm:text-2xl">
+        <Link
+          to={"/"}
+          className="header_logo text-3xl font-bold max-sm:text-2xl"
+        >
           Dina's Cafe
         </Link>
         <div
           className={`section_lists flex w-[300px ] justify-between ${shrink ? "hidden!" : ""}`}
         >
-          <Link to={"/"} className="flex font-semibold justify-between">
+          <Link
+            to={"/"}
+            onClick={goToHome}
+            className="flex font-semibold justify-between"
+          >
             Home
           </Link>
-          <Link to={"/menu"} className="flex font-semibold justify-between">
+          <Link
+            to={"/"}
+            onClick={goToMenu}
+            className="flex font-semibold justify-between"
+          >
             Menu
           </Link>
-          <Link to={"/About"} className="flex font-semibold justify-between">
+          <Link
+            to={"/"}
+            className="flex font-semibold justify-between"
+            onClick={goToAbout}
+          >
             About
           </Link>
-          <Link to={"Contact"} className="flex font-semibold justify-between">
+          <Link
+            to={"/"}
+            className="flex font-semibold justify-between"
+            onClick={goToVisitUs}
+          >
             Contact
           </Link>
         </div>
@@ -82,16 +101,32 @@ function NavBar() {
       >
         {" "}
         {/* ✅ uses menuOpen state */}
-        <Link to={"/"} className="flex font-semibold justify-between">
+        <Link
+          to={"/"}
+          className="flex font-semibold justify-between"
+          onClick={goToHome}
+        >
           Home
         </Link>
-        <Link to={"/menu"} className="flex font-semibold justify-between">
+        <Link
+          to={"/"}
+          className="flex font-semibold justify-between"
+          onClick={goToMenu}
+        >
           Menu
         </Link>
-        <Link to={"/About"} className="flex font-semibold justify-between">
+        <Link
+          to={"/"}
+          className="flex font-semibold justify-between"
+          onClick={goToAbout}
+        >
           About
         </Link>
-        <Link to={"Contact"} className="flex font-semibold justify-between">
+        <Link
+          to={"/"}
+          className="flex font-semibold justify-between"
+          onClick={goToVisitUs}
+        >
           Contact
         </Link>
       </div>

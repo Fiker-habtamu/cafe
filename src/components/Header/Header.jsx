@@ -2,10 +2,10 @@ import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./Header.css";
 
-export default function Header() {
+export default function Header({toVisitUs,toMenu,homeSection}) {
   return (
     <>
-      <div className="header_container">
+      <div className="header_container" ref={homeSection}>
         {/* the background video is here */}
         <video className="video" autoPlay muted loop playsInline>
           <source
@@ -20,8 +20,8 @@ export default function Header() {
           <p className="mt-10 text-3xl font-light max-sm:text-[18px]!">Experience premium coffee, carefully crafted dishes, and <br /> a space designed for relaxation, work, and connection.</p>
           {/* hero buttons  */}
           <div className="hero_btns mt-20 text-3xl font-normal max-sm:p-2! max-sm:w-80! max-sm:text-2xl! max-sm:mt-10!">
-            <button color="" className="max-sm:w-36!">Order Now</button>
-            <button className="max-sm:w-36!">Contact Us</button>
+            <button color="" className="max-sm:w-36!" onClick={toMenu}>Order Now</button>
+            <button className="max-sm:w-36!" onClick={toVisitUs}>Contact Us</button>
           </div>
         </div>
       </div>

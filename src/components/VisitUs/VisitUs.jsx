@@ -24,9 +24,9 @@ const ExternalIcon = () => (
   </svg>
 );
  
-export default function VisitUs() {
+export default function VisitUs({visitRef}) {
   return (
-    <section className="visit-section">
+    <section className="visit-section" ref={visitRef}>
       {/* ── Section header ── */}
       <h2 className="visit-title">Visit Us</h2>
       <p className="visit-subtitle">

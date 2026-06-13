@@ -2,11 +2,11 @@ import React from "react";
 import "./MenuSection.css";
 import { Link } from "react-router-dom";
 
-function MenuSection() {
+function MenuSection({menuRef}) {
   return (
     <>
-      <div className="menu_container pt-7">
-        <div className="menu_content">
+      <div className="menu_container pt-7" ref={menuRef}>
+        <div className="menu_content">  
           <div className="flex justify-center items-center">
             <h2 className="text-3xl font-bold md:text-4xl text-[#40916c]">
               HERE IS A MENU
