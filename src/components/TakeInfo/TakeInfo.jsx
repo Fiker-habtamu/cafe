@@ -1,4 +1,6 @@
 import { useState } from "react";
+import {axios} from 'axios'
+
 
 export default function TakeInfo() {
   const [drink, setDrink] = useState({
@@ -23,7 +25,7 @@ export default function TakeInfo() {
     console.log(drink);
 
     // Send to your Express API here
-    // axios.post('/api/drinks', drink)
+    axios.post('http://localhost:3000/api/drinks', drink)
   };
 
   return (
