@@ -67,6 +67,7 @@ function App() {
             }
           />
           <Route path="/foods" element={<FoodCard />} />
+          <Route path="/foods/:id" element={<FoodCard />} />
           <Route path="/drinks" element={<DrinksCard />} />
           <Route path="/drinks/:id" element={<SingleDrink />} />
           <Route path="/insertDrinks" element={<TakeInfo/>}/>
