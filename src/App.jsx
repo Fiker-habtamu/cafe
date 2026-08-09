@@ -13,6 +13,7 @@ import DrinksCard from "./components/Pages/DrinksCard/DrinksCard";
 import SingleDrink from "./components/Pages/SingleDrink/SingleDrink";
 import { useRef } from "react";
 import TakeInfo from "./components/TakeInfo/TakeInfo";
+import SingleFood from "./components/Pages/SingleFood/SingleFood";
 
 function App() {
   let visitUs = useRef(null);
@@ -67,7 +68,7 @@ function App() {
             }
           />
           <Route path="/foods" element={<FoodCard />} />
-          <Route path="/foods/:id" element={<FoodCard />} />
+          <Route path="/foods/:id" element={<SingleFood/>} />
           <Route path="/drinks" element={<DrinksCard />} />
           <Route path="/drinks/:id" element={<SingleDrink />} />
           <Route path="/insertDrinks" element={<TakeInfo/>}/>

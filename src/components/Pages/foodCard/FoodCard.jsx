@@ -1,5 +1,5 @@
 import React from "react";
-import "./FoodCard.css";
+import "../foodCard/FoodCard.css";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -33,7 +33,7 @@ export default function FoodCard() {
             <p className="text-[#4d4747] h-24">{food_brief_description}</p>
             <p className="text-[20px] mb-5 font-semibold">ETB: {food_price}Br</p>
             <Link
-              to={`/drinks/${food_url}`}
+              to={`/foods/${food_url}`}
               className="w-fit h-fit p-2 font-semibold text-[20px] "
             >
               See Detail
