@@ -1,5 +1,87 @@
 {
-  "foods": [],
+  "foods": [
+  {
+    "food_id": 1,
+    "food_name": "Avocado Toast with Poached Egg",
+    "food_url": "avocado-toast-poached-egg",
+    "food_brief_description": "Crispy sourdough topped with mashed avocado, microgreens, and a runny poached egg.",
+    "food_price": 220.0,
+    "food_image_url": "https://plus.unsplash.com/premium_photo-1676106623583-e68dd66683e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8QXZvY2FkbyUyMFRvYXN0JTIwd2l0aCUyMFBvYWNoZWQlMjBFZ2d8ZW58MHx8MHx8fDA%3D",
+    "food_description": "Toasted artisanal sourdough spread generously with fresh, seasoned avocado mash, topped with a perfectly poached egg, chili flakes, microgreens, and a drizzle of extra virgin olive oil."
+  },
+  {
+    "food_id": 2,
+    "food_name": "Classic Breakfast Sandwich",
+    "food_url": "classic-breakfast-sandwich",
+    "food_brief_description": "Flaky brioche bun filled with scrambled eggs, cheddar cheese, and smoked bacon.",
+    "food_price": 240.0,
+    "food_image_url": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop",
+    "food_description": "Soft toasted brioche bun stuffed with fluffy soft-scrambled eggs, melted sharp cheddar cheese, crispy smoked bacon, and a touch of house-made garlic aioli."
+  },
+  {
+    "food_id": 3,
+    "food_name": "Blueberry Buttercream Pancakes",
+    "food_url": "blueberry-buttercream-pancakes",
+    "food_brief_description": "Fluffy golden pancakes layered with fresh blueberries and warm maple syrup.",
+    "food_price": 210.0,
+    "food_image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?q=80&w=800&auto=format&fit=crop",
+    "food_description": "A stack of three thick, fluffy buttermilk pancakes folded with fresh blueberries, served with a dollop of whipped butter, a dusting of powdered sugar, and pure maple syrup."
+  },
+  {
+    "food_id": 4,
+    "food_name": "Truffle Mushroom Panini",
+    "food_url": "truffle-mushroom-panini",
+    "food_brief_description": "Grilled ciabatta packed with sauteed wild mushrooms, Swiss cheese, and truffle oil.",
+    "food_price": 260.0,
+    "food_image_url": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop",
+    "food_description": "Artisanal ciabatta bread pressed golden brown, stuffed with caramelized garlic wild mushrooms, melted Swiss cheese, fresh arugula, and a subtle drizzle of white truffle oil."
+  },
+  {
+    "food_id": 5,
+    "food_name": "Grilled Chicken Caesar Wrap",
+    "food_url": "grilled-chicken-caesar-wrap",
+    "food_brief_description": "Juicy grilled chicken breast, crisp romaine, parmesan, and creamy Caesar dressing.",
+    "food_price": 250.0,
+    "food_image_url": "https://images.unsplash.com/photo-1509722747041-616f39b57569?q=80&w=800&auto=format&fit=crop",
+    "food_description": "Tender herb-marinated grilled chicken strips wrapped in a warm spinach tortilla with crisp romaine lettuce, shaved parmesan cheese, crunchy croutons, and house Caesar dressing."
+  },
+  {
+    "food_id": 6,
+    "food_name": "Butter Croissant",
+    "food_url": "butter-croissant",
+    "food_brief_description": "Traditional French pastry with flaky, golden layers and a rich buttery flavor.",
+    "food_price": 120.0,
+    "food_image_url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop",
+    "food_description": "Baked fresh every morning using classic French techniques. Light, airy, incredibly flaky on the outside, and soft and buttery on the inside. The perfect companion to any iced coffee."
+  },
+  {
+    "food_id": 7,
+    "food_name": "Smoked Salmon Bagel",
+    "food_url": "smoked-salmon-bagel",
+    "food_brief_description": "Toasted bagel with cream cheese, premium smoked salmon, capers, and red onion.",
+    "food_price": 280.0,
+    "food_image_url": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop",
+    "food_description": "Toasted everything bagel generously slathered with herb cream cheese, layered with slices of premium cured smoked salmon, pickled red onions, capers, and fresh dill."
+  },
+  {
+    "food_id": 8,
+    "food_name": "Double Chocolate Fudge Brownie",
+    "food_url": "double-chocolate-fudge-brownie",
+    "food_brief_description": "Rich, dense chocolate brownie studded with dark chocolate chunks.",
+    "food_price": 150.0,
+    "food_image_url": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop",
+    "food_description": "An decadent, ultra-fudgy brownie baked with cocoa and loaded with chunks of dark Belgian chocolate. Served warm with a crispy crackly top and a gooey center."
+  },
+  {
+    "food_id": 9,
+    "food_name": "Mediterranean Quinoa Bowl",
+    "food_url": "mediterranean-quinoa-bowl",
+    "food_brief_description": "Healthy bowl of quinoa, cucumbers, cherry tomatoes, feta, olives, and lemon dressing.",
+    "food_price": 230.0,
+    "food_image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop",
+    "food_description": "A nutrient-packed bowl featuring fluffy quinoa topped with diced cucumbers, sweet cherry tomatoes, Kalamata olives, crumbled feta cheese, hummus, and a tangy lemon-tahini dressing."
+  }
+],
   "drinks": [
     {
       "drink_id": 1,
